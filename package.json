@@ -1,6 +1,6 @@
 {
   "name": "react-native-bluetooth-nest-printer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React-Native plugin for the bluetooth ESC/POS printers.",
   "main": "index.js",
   "scripts": {
@@ -11,11 +11,23 @@
     "ESC",
     "POS",
     "Bluetooth",
-    "Printer"
+    "Printer",
+    "baochau",
+    "baochau9xx",
+    "ischau",
+    "ischau.org"
   ],
-  "author": "janus j k lu",
+  "author": "baochau9xx",
   "license": "MIT",
   "peerDependencies": {
     "react-native": ">=0.55.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaudev/react-native-bluetooth-nest-printer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chaudev/react-native-bluetooth-nest-printer/issues"
+  },
+  "homepage": "https://ischau.org/react-native-bluetooth-nest-printer"
 }

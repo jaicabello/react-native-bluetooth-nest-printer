@@ -1,14 +1,13 @@
 # react-native-bluetooth-nest-printer
 
+[![version](https://img.shields.io/badge/version-1.0.1-4CAF50)](https://www.npmjs.com/package/react-native-bluetooth-nest-printer)
+[![version](https://img.shields.io/badge/react--native-0.7x-1E88E5)](https://www.npmjs.com/package/react-native-bluetooth-nest-printer)
+
 React-Native plugin for the bluetooth ESC/POS & TSC printers.
 
 Any questions or bug please raise a issue.
 
-##Still under developement
-
-#May support Android /IOS
-
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/januslo/react-native-bluetooth-nest-printer/master/LICENSE) [![npm version](https://badge.fury.io/js/react-native-bluetooth-nest-printer.svg)](https://www.npmjs.com/package/react-native-bluetooth-nest-printer)
+# May support Android & IOS
 
 ## Installation
 
@@ -17,27 +16,35 @@ Any questions or bug please raise a issue.
 Install via NPM [Check In NPM](https://www.npmjs.com/package/react-native-bluetooth-nest-printer)
 
 ```bash
-npm install react-native-bluetooth-nest-printer --save
+npm install react-native-bluetooth-nest-printer
 ```
 
-Or install via github
+Or yarn
 
 ```bash
-npm install https://github.com/januslo/react-native-bluetooth-nest-printer.git --save
+yarn add react-native-bluetooth-nest-printer
 ```
 
-### Step2
+### Step 2
+
+- Android (on React Native 0.7x no need to do this step):
 
 Link the plugin to your RN project
 
 ```bash
-react-native link react-native-bluetooth-nest-printer
+npx react-native link react-native-bluetooth-nest-printer
 ```
 
 Or you may need to link manually.
 //TODO: manually link guilds.
 
-### Step3
+- IOS:
+
+```bash
+pod install
+```
+
+### Step 3
 
 Refers to your JS files
 
