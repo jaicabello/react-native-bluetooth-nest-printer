@@ -5,17 +5,19 @@
 
 This library is complete from [react-native-bluetooth-escpos-printer](https://github.com/januslo/react-native-bluetooth-escpos-printer), thanks Januslo!
 
-React-Native plugin for the bluetooth ESC/POS & TSC printers.
+React-Native plugin for the bluetooth ESC/POS & TSC printers
 
-Any questions or bug please raise a [issue](https://github.com/chaudev/react-native-bluetooth-nest-printer/issues).
+Any questions or bug please raise a [issue](https://github.com/chaudev/react-native-bluetooth-nest-printer/issues)
 
-# Worked for Android and IOS
+Worked for Android and IOS
+
+For print text in Vietnamese, it is necessary to use a printer that supports Vietnamese
 
 ## Installation
 
 ### Step 1
 
-Install via NPM [Check In NPM](https://www.npmjs.com/package/react-native-bluetooth-nest-printer)
+Install via npm [Check In NPM](https://www.npmjs.com/package/react-native-bluetooth-nest-printer)
 
 ```bash
 npm install react-native-bluetooth-nest-printer
@@ -36,9 +38,6 @@ Link the plugin to your RN project
 ```bash
 npx react-native link react-native-bluetooth-nest-printer
 ```
-
-Or you may need to link manually.
-//TODO: manually link guilds.
 
 - IOS:
 
@@ -62,11 +61,10 @@ import {
 
 ### BluetoothManager
 
-BluetoothManager is the module that for Bluetooth service management, supports Bluetooth status check, enable/disable Bluetooth service,scan devices,connect/unpaire devices.
+BluetoothManager is the module that for Bluetooth service management, supports Bluetooth status check, enable / disable Bluetooth service, scan devices, connect / unpaire devices.
 
-- isBluetoothEnabled ==>
-  async function, check whether Bluetooth service is enabled.
-  //TODO: consider to return the the devices information already bound and paired here..
+- isBluetoothEnabled =>
+  async function, check whether Bluetooth service is enabled
 
 ```javascript
 BluetoothManager.isBluetoothEnabled().then(
