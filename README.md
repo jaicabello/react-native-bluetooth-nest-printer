@@ -3,11 +3,13 @@
 [![version](https://img.shields.io/badge/version-1.0.1-4CAF50)](https://www.npmjs.com/package/react-native-bluetooth-nest-printer)
 [![version](https://img.shields.io/badge/react--native-0.7x-1E88E5)](https://www.npmjs.com/package/react-native-bluetooth-nest-printer)
 
+This library is complete from [react-native-bluetooth-escpos-printer](https://github.com/januslo/react-native-bluetooth-escpos-printer), thanks Januslo!
+
 React-Native plugin for the bluetooth ESC/POS & TSC printers.
 
-Any questions or bug please raise a issue.
+Any questions or bug please raise a [issue](https://github.com/chaudev/react-native-bluetooth-nest-printer/issues).
 
-# May support Android & IOS
+# Worked for Android and IOS
 
 ## Installation
 
