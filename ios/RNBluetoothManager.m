@@ -251,9 +251,9 @@ RCT_EXPORT_METHOD(connect:(NSString *)address
 - (void) initSupportServices
 {
     if(!supportServices){
-        CBUUID *issc = [CBUUID UUIDWithString: @"49535343-FE7D-4AE5-8FA9-9FAFD205E455"];
+        CBUUID *issc = [CBUUID UUIDWithString: @"0000FFB0-D102-11E1-9B23-00025B00A5A5"];
         supportServices = [NSArray arrayWithObject:issc];/*ISSC*/
-        writeableCharactiscs = @{issc:@"49535343-8841-43F4-A8D4-ECBE34729BB3"};
+        writeableCharactiscs = @{issc:@"0000FFB3-D102-11E1-9B23-00025B00A5A5"};
     }
 }
 
